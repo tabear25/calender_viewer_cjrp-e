@@ -1,0 +1,56 @@
+body {
+  width: 400px;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+
+.search-box {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 月〜金 */
+  gap: 2px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+}
+
+.day-column {
+  background-color: #fff;
+  min-height: 200px;
+  font-size: 10px;
+}
+
+.day-header {
+  background-color: #f1f3f4;
+  text-align: center;
+  padding: 4px 0;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.event-item {
+  background-color: #e8f0fe;
+  color: #1967d2;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 2px;
+  font-size: 9px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.status {
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 5px;
+}

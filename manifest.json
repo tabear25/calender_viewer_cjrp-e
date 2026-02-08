@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Calendar Viewer",
+  "version": "1.0",
+  "description": "指定したメールアドレスの今週の予定を表示します",
+  "permissions": [
+    "identity"
+  ],
+  "host_permissions": [
+    "https://www.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "oauth2": {
+    "client_id": "934901958446-omesfgmrk9qju0utclh4tsagsf3q9ngj.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/calendar.events.readonly"
+    ]
+  }
+}
